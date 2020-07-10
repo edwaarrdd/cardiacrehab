@@ -20,6 +20,34 @@ var map = new mapboxgl.Map({
 var rehabs = {
   'type': 'FeatureCollection',
   'features': [
+   {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [144.9728424, -37.8073527]
+      },
+      'properties': {
+        'building': 'St Vincent\'s Hospital',
+        'address': '41 Victoria Parade',
+        'suburb': 'Fitzroy',
+        'postalCode': '3065',
+        'state': 'VIC'
+      }
+    },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [144.953976, -37.798911]
+      },
+      'properties': {
+        'building': 'The Royal Melbourne Hospital',
+        'address': '300 Grattan St',
+        'suburb': 'Parkville',
+        'postalCode': '3050',
+        'state': 'VIC'
+      }
+    },
   // North West
     {
       'type': 'Feature',
@@ -1052,20 +1080,6 @@ var rehabs = {
       'type': 'Feature',
       'geometry': {
         'type': 'Point',
-        'coordinates': [144.9728424, -37.8073527]
-      },
-      'properties': {
-        'building': 'St Vincent\'s Hospital',
-        'address': '41 Victoria Parade',
-        'suburb': 'Fitzroy',
-        'postalCode': '3065',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
         'coordinates': [145.0934537, -38.1508127]
       },
       'properties': {
@@ -1129,20 +1143,6 @@ var rehabs = {
         'address': '25 Market St',
         'suburb': 'Lilydale',
         'postalCode': '3140',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [144.953976, -37.798911]
-      },
-      'properties': {
-        'building': 'The Royal Melbourne Hospital',
-        'address': '300 Grattan St',
-        'suburb': 'Parkville',
-        'postalCode': '3050',
         'state': 'VIC'
       }
     },
