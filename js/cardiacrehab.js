@@ -48,6 +48,62 @@ var rehabs = {
         'state': 'VIC'
       }
     },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [144.957532, -37.774376]
+      },
+      'properties': {
+        'building': 'Pronia (Australian Greek Welfare Society)',
+        'address': '7 Union St',
+        'suburb': 'Brunswick',
+        'postalCode': '3056',
+        'state': 'VIC'
+      }
+    },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [144.9634851, -37.7413909]
+      },
+      'properties': {
+        'building': 'Merri Health (Coburg)',
+        'address': '93 Bell St',
+        'suburb': 'Coburg',
+        'postalCode': '3058',
+        'state': 'VIC'
+      }
+    },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [145.0570728, -37.7565803]
+      },
+      'properties': {
+        'building': 'Austin Hospital',
+        'address': '145 Studley Rd',
+        'suburb': 'Heidelburg',
+        'postalCode': '3084',
+        'state': 'VIC'
+      }
+    },
+    {
+      'type': 'Feature',
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [145.013706, -37.8839611]
+      },
+      'properties': {
+        'building': 'Caulfield Hospital',
+        'address': '260-294 Kooyong Rd',
+        'suburb': 'Caulfield',
+        'postalCode': '3162',
+        'state': 'VIC'
+      }
+    },
   // North West
     {
       'type': 'Feature',
@@ -912,20 +968,6 @@ var rehabs = {
       'type': 'Feature',
       'geometry': {
         'type': 'Point',
-        'coordinates': [144.957532, -37.774376]
-      },
-      'properties': {
-        'building': 'Pronia (Australian Greek Welfare Society)',
-        'address': '7 Union St',
-        'suburb': 'Brunswick',
-        'postalCode': '3056',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
         'coordinates': [145.0547043, -37.7013053]
       },
       'properties': {
@@ -933,20 +975,6 @@ var rehabs = {
         'address': '1231 Plenty Rd',
         'suburb': 'Bundoora',
         'postalCode': '3083',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [145.013706, -37.8839611]
-      },
-      'properties': {
-        'building': 'Caulfield Hospital',
-        'address': '260-294 Kooyong Rd',
-        'suburb': 'Caulfield',
-        'postalCode': '3162',
         'state': 'VIC'
       }
     },
@@ -975,20 +1003,6 @@ var rehabs = {
         'address': '246 Clayton Rd',
         'suburb': 'Clayton',
         'postalCode': '3168',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [144.9634851, -37.7413909]
-      },
-      'properties': {
-        'building': 'Merri Health (Coburg)',
-        'address': '93 Bell St',
-        'suburb': 'Coburg',
-        'postalCode': '3058',
         'state': 'VIC'
       }
     },
@@ -1101,20 +1115,6 @@ var rehabs = {
         'address': 'Bellerine St',
         'suburb': 'Geelong',
         'postalCode': '3220',
-        'state': 'VIC'
-      }
-    },
-    {
-      'type': 'Feature',
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [145.0570728, -37.7565803]
-      },
-      'properties': {
-        'building': 'Austin Hospital',
-        'address': '145 Studley Rd',
-        'suburb': 'Heidelburg',
-        'postalCode': '3084',
         'state': 'VIC'
       }
     },
